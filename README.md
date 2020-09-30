@@ -11,7 +11,10 @@ property =  new  Building(propertySize, propertyValue, propertyType, mainRoomSiz
 
 ## **Bridge**
 A exemplo do ***bridge***, foi implementado a ["tax"](https://github.com/wandreuscv/design-pattern-implementation/tree/master/src/com/designpattern/tax) usando este pattern. Usando o ***bridge*** foi possível separar classes que possuem dimensões/propósitos diferentes, no caso a do "valor da taxa de imposto" do imóvel de suas "características e dados":
-![Diagrama simples de exemplo](https://drive.google.com/file/d/1rphE70-9F7K7bpYDz5X9lHit3xGbm4pb/view?usp=sharing)
+
+<p align="center">
+  <img width="500" height="250" style="align=center;" src="https://github.com/wandreuscv/design-pattern-implementation/blob/master/Temp/Diagrama_BRIDGE.png?raw=true">
+</p>
 
 ## **Strategy**
 A exemplo do ***strategy***, foi implementado a ["owner"](https://github.com/wandreuscv/design-pattern-implementation/tree/master/src/com/designpattern/owner) usando esse pattern. Usando este pattern, foi possível modificar o comportamento do programa de forma simples, tornando os objetos intercambiáveis:
