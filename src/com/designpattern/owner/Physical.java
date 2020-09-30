@@ -1,6 +1,6 @@
 package com.designpattern.owner;
 
-public class Physical implements Owner{
+public class Physical implements OwnerInterface {
 
     private final OwnerDocType ownerDocType;
 

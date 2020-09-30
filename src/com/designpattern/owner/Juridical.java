@@ -1,6 +1,6 @@
 package com.designpattern.owner;
 
-public class Juridical implements Owner {
+public class Juridical implements OwnerInterface {
 
     private final OwnerDocType ownerDocType;
 
